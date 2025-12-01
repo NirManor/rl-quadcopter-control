@@ -1,0 +1,17 @@
+# Core Dependencies
+numpy>=1.21.0
+matplotlib>=3.4.0
+
+# Reinforcement Learning Framework
+gymnasium==0.27.0
+gymnasium-notices==0.0.1
+stable-baselines3>=2.0.0
+
+# Machine Learning & Deep Learning
+torch>=1.9.0
+tensorboard>=2.6.0
+
+# Optional but Recommended
+scipy>=1.7.0
+scikit-learn>=0.24.0
+tqdm>=4.60.0
