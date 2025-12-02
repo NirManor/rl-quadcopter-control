@@ -197,17 +197,17 @@ See **Advance_Robotics_Project.pdf** for:
 
 ## 👥 Authors
 
-- **Nir Manor** - Autonomous Systems & Robotics  
+- **Nir Manor** - Machine Learning & Autonomous Systems
   - GitHub: [@NirManor](https://github.com/NirManor)
 
-- **Gil Gur Arieh** - Controls & Robotics  
-  - Technion TASP Program
+- **Gil Gur Arieh** - Autonomous Systems & Robotics
+  - GitHub: [@gilgurarieh](https://github.com/gilgurarieh)
 
-## 📝 License
+## License
 
 MIT License - See [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - CoppeliaSim/V-REP team for excellent physics simulator
 - Stable-Baselines3 team for robust RL implementations
