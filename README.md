@@ -243,4 +243,28 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 ---
 
+
+## Results & Performance
+
+### Training Visualization
+
+![Training Progress](presentation/drone.gif)
+
+### System Architecture
+
+![Code Structure](presentation/code_structure.png)
+
+### Quadcopter Equations
+
+![Drone Equations](presentation/drone_eqs.png)
+
+---
+
+## Authors
+
+- **Nir Manor** — https://github.com/NirManor
+- **Gil Gur Arieh** — https://github.com/gilgurarieh
+
+---
+
 **Last Updated:** May 2024
