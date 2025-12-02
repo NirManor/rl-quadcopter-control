@@ -79,7 +79,7 @@ r(s) = c₀ - c₁(|α| + |β|) - c₂|z_drone - z_target| - c₃√[(Δx)² + (
 - **c₂ = 10:** Vertical distance weight
 - **c₃ = 5:** Horizontal distance weight
 
-## 📊 Results
+## 📊 Results & Performance
 
 | Metric | Value |
 |--------|-------|
@@ -89,6 +89,18 @@ r(s) = c₀ - c₁(|α| + |β|) - c₂|z_drone - z_target| - c₃√[(Δx)² + (
 | **Network Architecture** | [128, 128] neurons |
 | **Mean Reward** | +15 to +25 |
 | **Best Sequence** | Sequence 3 (PPO) |
+
+### Training Visualization
+
+![Training Progress](presentation/drone.gif)
+
+### System Architecture Diagram
+
+![Code Structure](presentation/code_structure.png)
+
+### Quadcopter Physics Equations
+
+![Drone Equations](presentation/drone_eqs.png)
 
 ## 🗂️ Repository Structure
 
@@ -151,7 +163,7 @@ Different training stages focus on progressive objectives:
 - **Solution:** Multi-objective weighting + positive baseline + curriculum learning
 
 ### 3. Sample Efficiency
-- **Challenge:** ~9 hours per 100k timesteps; recommanded 1M timesteps (90+ hours)
+- **Challenge:** ~9 hours per 100k timesteps; recommended 1M timesteps (90+ hours)
 - **Solution:** Algorithm comparison (PPO vs A2C), hyperparameter tuning, curriculum learning
 
 ## 📚 Technical Details
@@ -163,24 +175,6 @@ See **Advance_Robotics_Project.pdf** for:
 - Ablation studies & hyperparameter analysis
 - Future research directions
 
-
-```
-
-## Results & Performance
-
-### Training Visualization
-
-![Training Progress](presentation/drone.gif)
-
-### System Architecture
-
-![Code Structure](presentation/code_structure.png)
-
-### Quadcopter Equations
-
-![Drone Equations](presentation/drone_eqs.png)
-
----
 ## 🔮 Future Work
 
 ### Short-term
@@ -204,7 +198,3 @@ See **Advance_Robotics_Project.pdf** for:
 
 - **Nir Manor** — https://github.com/NirManor
 - **Gil Gur Arieh** — https://github.com/gilgurarieh
-
-
-
-
