@@ -2,9 +2,6 @@
 
 Model-free reinforcement learning for autonomous quadcopter flight control and stabilization. PPO and A2C agents learn to navigate and hover in 3D space without explicit physics models.
 
-**Authors:** Nir Manor & Gil Gur Arieh  
-**Last Updated:** December 2024
-
 ---
 
 ## 📋 Overview
@@ -166,6 +163,24 @@ See **Advance_Robotics_Project.pdf** for:
 - Ablation studies & hyperparameter analysis
 - Future research directions
 
+
+```
+
+## Results & Performance
+
+### Training Visualization
+
+![Training Progress](presentation/drone.gif)
+
+### System Architecture
+
+![Code Structure](presentation/code_structure.png)
+
+### Quadcopter Equations
+
+![Drone Equations](presentation/drone_eqs.png)
+
+---
 ## 🔮 Future Work
 
 ### Short-term
@@ -183,88 +198,13 @@ See **Advance_Robotics_Project.pdf** for:
 - Transfer learning across drone designs
 - Real-world benchmark dataset
 
-## 📖 Citation
-
-```bibtex
-@misc{Manor2024RLQuadcopter,
-  title={RL Quadcopter Control: Model-Free Deep Reinforcement Learning for Autonomous Flight},
-  author={Manor, Nir and Gur Arieh, Gil},
-  year={2024},
-  howpublished={GitHub},
-  url={https://github.com/NirManor/rl-quadcopter-control}
-}
-```
+---
 
 ## 👥 Authors
 
-- **Nir Manor** - Autonomous Systems & Robotics  
-  - GitHub: [@NirManor](https://github.com/NirManor)
-
-- **Gil Gur Arieh** - Controls & Robotics  
-  - Technion TASP Program
-
-## 📝 License
-
-MIT License - See [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- CoppeliaSim/V-REP team for excellent physics simulator
-- Stable-Baselines3 team for robust RL implementations
-- Gymnasium (formerly OpenAI Gym) for standard RL interfaces
-- Technion TASP Program for research opportunities
-
----
-
-**For questions or issues, please open a GitHub issue or contact the authors.**
-
-**Last Updated:** December 2024
-
-## Results & Performance
-
-### Training Visualization
-
-![Training Progress](presentation/drone.gif)
-
-### System Architecture
-
-![Code Structure](presentation/code_structure.png)
-
-### Quadcopter Equations
-
-![Drone Equations](presentation/drone_eqs.png)
-
----
-
-## Authors
-
 - **Nir Manor** — https://github.com/NirManor
 - **Gil Gur Arieh** — https://github.com/gilgurarieh
 
----
 
 
-## Results & Performance
 
-### Training Visualization
-
-![Training Progress](presentation/drone.gif)
-
-### System Architecture
-
-![Code Structure](presentation/code_structure.png)
-
-### Quadcopter Equations
-
-![Drone Equations](presentation/drone_eqs.png)
-
----
-
-## Authors
-
-- **Nir Manor** — https://github.com/NirManor
-- **Gil Gur Arieh** — https://github.com/gilgurarieh
-
----
-
-**Last Updated:** May 2024
